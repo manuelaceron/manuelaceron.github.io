@@ -75,10 +75,7 @@
               <br>
               <a href="https://github.com/manuelaceron/OA-WinSeg">source code</a>
               <p></p>
-              <p>
-                This work propose OA-WinSeg: Occlusion-Aware window segmentation network, a unique approach that integrates image segmentation with adversarial generative training to address occlusions in façade images. OA-WinSeg conditions the generation of window segmentation masks on a rectangular boundary guidance, enconding prior structural information of the hidden window boundaries. Unlike other studies that generate irregular or blob-shape segments, OA-WinSeg generates highly rectangular window shapes by incorporating adversarial training, rectangular guidance and bidirectional convolution with 1D Kernels, minimizing the need for complex vectorization mechanisms. In contrast to previous research, the availability of occlusion labels in our simulated dataset allows to perform a new targeted evaluation of segmentation methods within occluded regions, specifically assessing the performance in occlusion handling.
-
-              </p>
+              <p style="text-align: justify;">This work integrates image segmentation with adversarial generative training to handle occlusions in fa&ccedil;ade images. OA-WinSeg uses rectangular boundary guidance to condition the generation of window segmentation masks, capturing structural information about hidden window boundaries. By incorporating adversarial training, rectangular guidance, and bidirectional convolution with 1D kernels, we achieve highly rectangular window shapes, reducing the reliance on complex vectorization mechanisms.</p>
             </td>
           </tr>
           
@@ -114,9 +111,7 @@ segmentation</papertitle>
               <br>
               <a href="https://github.com/manuelaceron/occ-data-generation">source code</a>
               <p></p>
-              <p>
-                This work introduces a novel workflow for creating a simulated dataset with synthetic occlusions. This workflow allows configuring the percentage of occluded samples in the dataset, as well as constraints for setting the size and location of various occluding objects. Importantly, the approach is adaptable to various building styles, and image resolutions, allows the addition of new categories of occluding objects and enables the generation of datasets of any size.
-              </p>
+              <p style="text-align: justify;">This work presents a new method to generate synthetic datasets with occlusions. It enables configuring the percentage of occluded samples, setting size and location constraints for occluding objects. The approach is adaptable across building styles and image resolutions, supports adding new occluding object categories, and facilitates generating datasets of any scale. This dataset addresses challenges in manual occlusion annotation and enables automated real occlusion detection.</p>
             </td>
           </tr>
           
@@ -151,11 +146,45 @@ segmentation</papertitle>
               <br>
               <a href="https://github.com/manuelaceron/vital-signs-dataset">source code</a>
               <p></p>
-              <p>
-                Data Science tecniques were used to process raw data (SpO2 and Heart rate) from a series of experiments, prepare and analyse it in order to build a final dataset ready to use in further AI-based modelling.
-              </p>
+              <p style="text-align: justify;">Data Science tecniques were used to process raw data (SpO2 and Heart rate) from a series of experiments, prepare and analyse it in order to build a final dataset ready to use in further AI-based modelling.</p>
             </td>
           </tr>
+
+
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/Captura2.PNG' width="160"></div>
+                <img src='images/Captura3.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/manuelaceron/Misc/tree/main/Implementing%20variability%20in%20scala">
+                <papertitle>Variability implementation in Scala</papertitle>
+              </a>
+              <br>
+              <strong>Manuela F. Cerón Viveros</strong>
+              <br>
+              <a href="https://github.com/manuelaceron/Misc/tree/main/Implementing%20variability%20in%20scala">source code</a>
+              <p></p>
+              <p style="text-align: justify;">This project implements a configurable collection framework. It supports runtime configuration of collection properties, enhances features through decorators, and promotes flexible feature composition using traits and mixins, thereby enhancing adaptability and maintainability in software development.</p>
+            </td>
+          </tr>
+		
 
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -184,7 +213,7 @@ segmentation</papertitle>
               <br>
               <a href="https://github.com/manuelaceron/Artificial-Intelligence/tree/main/CSP">source code</a>
               <p></p>
-              <p>
+              <p style="text-align: justify;">
                 Sudoku with multiple constrainst is solved using Constraint satisfaction problem in Z3.
               </p>
             </td>
