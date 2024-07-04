@@ -288,6 +288,39 @@ segmentation</papertitle>
               <p style="text-align: justify;">We propose a method for generation of dequantized or finely quantized images. We cast this as an image-to-image translation task using conditional adversarial networks. Using images from a custom dataset with limited data, we demonstrate that our approach can generate finely quantized images, while outperforming the baseline. We further show that our method can be extended to applications such as video regeneration.</p>
             </td>
           </tr>			
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/CNN.png' width="160"></div>
+                <img src='images/CNN.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/manuelaceron/cnn-implementation">
+                <papertitle>Implementation of Convolutional neural networks</papertitle>
+              </a>
+              <br>
+              <strong>Manuela F. Cerón Viveros, Akshay Dodwadmath, Jobin Idiculla Wattasseril</strong>
+              <br>
+              <a href="https://github.com/manuelaceron/cnn-implementation">source code</a>
+              <p></p>
+              <p style="text-align: justify;">
+                High-level computer vision (HLCV) mini-project at Saarland University focusing on implementing and training convolutional networks using PyTorch for image classification tasks on the CIFAR-10 dataset. The project applies generalization techniques and pretrained networks.
+              </p>
+            </td>
+          </tr>
 		
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
