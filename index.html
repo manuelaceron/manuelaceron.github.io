@@ -113,6 +113,40 @@ segmentation</papertitle>
               <p style="text-align: justify;">This work presents a new method to generate synthetic datasets with occlusions. It enables configuring the percentage of occluded samples, setting size and location constraints for occluding objects. The approach is adaptable across building styles and image resolutions, supports adding new occluding object categories, and facilitates generating datasets of any scale. This dataset addresses challenges in manual occlusion annotation and enables automated real occlusion detection.</p>
             </td>
           </tr>
+
+        </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/gif-pet-sitter.gif' width="160"></div>
+                <img src='images/pet-sitter.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/manuelaceron/pet-sitting-app">
+                <papertitle>Pet Sitter Tracker</papertitle>
+              </a>
+              <br>
+              <strong>Manuela F. Cerón Viveros</strong>
+              <br>
+              <a href="https://github.com/manuelaceron/pet-sitting-app">source code</a>
+              <p></p>
+              <p style="text-align: justify;">This project is a web application designed for pet sitters to register pets, set hourly rates, track work hours, and monitor earnings. Built with CRUD operations and user authentication, using Flask, SQLite, and HTML.</p>
+            </td>
+        </tr>
           
           
           </tr>
